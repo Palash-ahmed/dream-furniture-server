@@ -1,0 +1,672 @@
+[
+    {
+      "_id": "0282e0e58a5c404fbd15261f11c2ab6a",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "01",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 488,
+      "title": "Hand Made Wooden Armoires and Wardrobes",
+      "resale_price": "960",
+      "original_price": "1200",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Palash Ahmed",
+        "location": "Bogura, Rajshahi",
+        "published_date": "2021-08-24 17:27:34",
+        "img": "https://i.ibb.co/QbTF44D/26934-Polash.jpg"
+      },
+      "image_url": "https://i.ibb.co/Pg7yBcv/armoires-wardrobes1.jpg"
+    },
+    {
+      "_id": "0282e0e58a5c404fbd15261f11c2ab6b",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "03",
+      "rating": { "number": 4.0, "badge": "Excellent" },
+      "total_view": 488,
+      "title": "Hand Made Wooden Dining Table",
+      "resale_price": "540",
+      "original_price": "750",
+      "condition": "Used",
+      "years_of_use": "2 years",
+      "author": {
+        "name": "Shahriar Rahman",
+        "location": "Mirpur, Dhaka",
+        "published_date": "2020-08-27 13:27:34",
+        "img": "https://i.ibb.co/0KVfyJ8/shahriar.jpg"
+      },
+      "image_url": "https://i.ibb.co/MZW4vbp/hand-made-dining-table.jpg"
+      
+    },
+
+    {
+      "_id": "f69a695f037cd9484cecaea37ca71011",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "01",
+      "rating": { "number": 4.8, "badge": "Excellent" },
+      "total_view": 400,
+      "title": "Armoires With Wardrobes",
+      "resale_price": "750",
+      "original_price": "900",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Shahriar Rahman",
+        "location": "Mirpur, Dhaka",
+        "published_date": "2021-08-10 16:38:45",
+        "img": "https://i.ibb.co/0KVfyJ8/shahriar.jpg"
+      },
+      "image_url": "https://i.ibb.co/b6X9gYf/armoires-wardrobes2.png"
+    },
+    {
+      "_id": "f69a695f037cd9484cecaea37ca71011",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "04",
+      "rating": { "number": 4.8, "badge": "Excellent" },
+      "total_view": 400,
+      "title": "Hand Made Wooden Bookshelf",
+      "resale_price": "400",
+      "original_price": "700",
+      "condition": "Used",
+      "years_of_use": "1.5 years",
+      "author": {
+        "name": "Palash Ahmed",
+        "location": "Bogura, Rajshahi",
+        "published_date": "2020-10-20 12:38:45",
+        "img": "https://i.ibb.co/QbTF44D/26934-Polash.jpg"
+      },
+      "image_url": "https://i.ibb.co/55YBfmD/hand-made-wooden-bookshelf.jpg"
+    },
+    {
+      "_id": "f69a695f037cd9484cecaea37ca71012",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "02",
+      "rating": { "number": 4.3, "badge": "Excellent" },
+      "total_view": 400,
+      "title": "Coffee Table",
+      "resale_price": "250",
+      "original_price": "350",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Ishtiak Ahmed",
+        "location": "Joypurhat, Rajshahi",
+        "published_date": "2021-06-10 19:38:45",
+        "img": "https://i.ibb.co/Th2C72j/ishtiak.jpg"
+      },
+      "image_url": "https://i.ibb.co/t815brL/Coffee-Tables1.jpg"
+    },
+
+    {
+      "_id": "11468ed61aee84de492a8b04158a22f9",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": false
+      },
+      "category_id": "03",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 980,
+      "title": "Wooden Dining Chair",
+      "resale_price": "150",
+      "original_price": "200",
+      "condition": "Used",
+      "years_of_use": "2 years",
+      "author": {
+        "name": "Ishtiak Ahmed",
+        "location": "Joypurhat, Rajshahi",
+        "published_date": "2020-08-24 23:15:00",
+        "img": "https://i.ibb.co/Th2C72j/ishtiak.jpg"
+      },
+      "image_url": "https://i.ibb.co/gZCnW5J/wooden-dining-chair.jpg"
+    },
+    {
+      "_id": "11468ed61aee84de492a8b04158a22f0",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": false
+      },
+      "category_id": "01",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 980,
+      "title": "Bed Side Table",
+      "resale_price": "100",
+      "original_price": "150",
+      "condition": "Used",
+      "years_of_use": "08 months",
+      "author": {
+        "name": "Raju Ahmed",
+        "location": "Dinajpur, Rangpur",
+        "published_date": "2022-02-26 22:15:00",
+        "img": "https://i.ibb.co/Jch3mh8/raju.jpg"
+      },
+      "image_url": "https://i.ibb.co/dQLLPXY/bed-side-table1.jpg"
+    },
+
+    {
+      "_id": "2e78e5e0310c2e9adbb6efb1a263e745",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "02",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 560,
+      "title": "Modern Design Coffee Table",
+      "resale_price": "75",
+      "original_price": "120",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Palash Ahmed",
+        "location": "Bogura, Rajshahi",
+        "published_date": "2021-09-30 15:00:04",
+        "img": "https://i.ibb.co/QbTF44D/26934-Polash.jpg"
+      },
+      "image_url": "https://i.ibb.co/LJv9xfz/Coffee-Tables2.jpg"
+    },
+
+    {
+      "_id": "a713ee936ff5574273f0f769f5c5b20e",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "03",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 111,
+      "title": "Dining Table",
+      "resale_price": "650",
+      "original_price": "780",
+      "condition": "Used",
+      "years_of_use": "1.5 years",
+      "author": {
+        "name": "Raju Ahmed",
+        "location": "Dinajpur, Rangpur",
+        "published_date": "2021-05-30 13:00:04",
+        "img": "https://i.ibb.co/Jch3mh8/raju.jpg"
+      },
+      "image_url": "https://i.ibb.co/TgrHJ8M/wooden-dining-table.jpg"
+    },
+
+    {
+      "_id": "e342b6c0c8efc8ca9e811991dc8a7900",
+      "others_info": {
+        "is_todays_pick": true,
+        "is_trending": false
+      },
+      "category_id": "04",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 733,
+      "title": "Partex Reading Table",
+      "resale_price": "365",
+      "original_price": "430",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Shahriar Rahman",
+        "location": "Mirpur, Dhaka",
+        "published_date": "2021-08-25 06:03:00",
+        "img": "https://i.ibb.co/0KVfyJ8/shahriar.jpg"
+      },
+      "image_url": "https://i.ibb.co/PNYZZGv/partex-reading-table.jpg"
+    },
+    {
+      "_id": "e342b6c0c8efc8ca9e811991dc8a7901",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": false
+      },
+      "category_id": "06",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 733,
+      "title": "Office Computer Desk",
+      "resale_price": "900",
+      "original_price": "1300",
+      "condition": "Used",
+      "years_of_use": "2 years",
+      "author": {
+        "name": "Palash Ahmed",
+        "location": "Bogura, Rajshahi",
+        "published_date": "2020-08-15 09:03:00",
+        "img": "https://i.ibb.co/QbTF44D/26934-Polash.jpg"
+      },
+      "image_url": "https://i.ibb.co/Kx4yxq5/office-computer-desk.jpg"
+    },
+    {
+      "_id": "e342b6c0c8efc8ca9e811991dc8a7901",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": false
+      },
+      "category_id": "04",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 733,
+      "title": "Reading Circle Table and Chair",
+      "resale_price": "400",
+      "original_price": "650",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Ishtiak Ahmed",
+        "location": "Joypurhat, Rajshahi",
+        "published_date": "2021-08-29 06:50:00",
+        "img": "https://i.ibb.co/Th2C72j/ishtiak.jpg"
+      },
+      "image_url": "https://i.ibb.co/CbFq9Wr/reading-circle-table-and-chair.jpg"
+    },
+
+    {
+      "_id": "f06f8cc035b04bd1158e4198281915a3",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "05",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 127,
+      "title": "Kids Bed With Pillow",
+      "resale_price": "780",
+      "original_price": "900",
+      "condition": "Used",
+      "years_of_use": "2 years",
+      "author": {
+        "name": "Shahriar Rahman",
+        "location": "Mirpur, Dhaka",
+        "published_date": "2020-08-05 18:53:49",
+        "img": "https://i.ibb.co/0KVfyJ8/shahriar.jpg"
+      },
+      "image_url": "https://i.ibb.co/NNbk6tT/kids-bed-with-pillow.jpg"
+    },
+    {
+      "_id": "f06f8cc035b04bd1158e4198281915a4",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "05",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 127,
+      "title": "Childrens Wooden Bed",
+      "resale_price": "530",
+      "original_price": "800",
+      "condition": "Used",
+      "years_of_use": "2 years",
+      "author": {
+        "name": "Palash Ahmed",
+        "location": "Bogura, Rajshahi",
+        "published_date": "2020-08-13 20:43:49",
+        "img": "https://i.ibb.co/QbTF44D/26934-Polash.jpg"
+      },
+      "image_url": "https://i.ibb.co/G5q2jhw/childrens-wooden-bed.jpg"
+    },
+
+    {
+      "_id": "cd2b53655737cc4077542baea9f8f75d",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "02",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 700,
+      "title": "White Color Coffee Table",
+      "resale_price": "260",
+      "original_price": "430",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Shahriar Rahman",
+        "location": "Mirpur, Dhaka",
+        "published_date": "2021-08-22 20:02:52",
+        "img": "https://i.ibb.co/0KVfyJ8/shahriar.jpg"
+      },
+      "image_url": "https://i.ibb.co/4M8g51Y/Coffee-Tables3.jpg"
+    },
+    {
+      "_id": "cd2b53655737cc4077542baea9f8f75d",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "06",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 700,
+      "title": "Office Desk",
+      "resale_price": "1500",
+      "original_price": "2000",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Shahriar Rahman",
+        "location": "Mirpur, Dhaka",
+        "published_date": "2021-08-13 13:10:52",
+        "img": "https://i.ibb.co/0KVfyJ8/shahriar.jpg"
+      },
+      "image_url": "https://i.ibb.co/JFJgtrt/office-desk.jpg"
+    },
+    {
+      "_id": "4e6092d54c18fbd89ad59e88a1e87fbb",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": false
+      },
+      "category_id": "02",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 300,
+      "title": "Modern Design Wooden Sofa",
+      "resale_price": "900",
+      "original_price": "1260",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Palash Ahmed",
+        "location": "Bogura, Rajshahi",
+        "published_date": "2021-10-24 22:46:00",
+        "img": "https://i.ibb.co/QbTF44D/26934-Polash.jpg"
+      },
+      "image_url": "https://i.ibb.co/hf40NMM/sofa2.jpg"
+    },
+    {
+      "_id": "7c4dfea0fafddc813673282a428429b7",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "01",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 430,
+      "title": "Hand Made Bed Side Table",
+      "resale_price": "120",
+      "original_price": "300",
+      "condition": "Used",
+      "years_of_use": "2 years",
+      "author": {
+        "name": "Shahriar Rahman",
+        "location": "Mirpur, Dhaka",
+        "published_date": "2020-08-17 03:09:16",
+        "img": "https://i.ibb.co/0KVfyJ8/shahriar.jpg"
+      },
+      "image_url": "https://i.ibb.co/VJv6pzJ/bed-side-table3.jpg"
+    },
+    {
+      "_id": "30af81e91ab3eafc0bcae0de62f55d5c",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "01",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 320,
+      "title": "Dressing Table",
+      "resale_price": "650",
+      "original_price": "800",
+      "condition": "Used",
+      "years_of_use": "07 months",
+      "author": {
+        "name": "Ishtiak Ahmed",
+        "location": "Joypurhat, Rajshahi",
+        "published_date": "2022-03-19 07:35:11",
+        "img": "https://i.ibb.co/Th2C72j/ishtiak.jpg"
+      },
+      "image_url": "https://i.ibb.co/SnyJ42t/dressing-table3.jpg"
+    },
+    {
+      "_id": "df11ff9feefc37613cc3a4486ce02151",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": false
+      },
+      "category_id": "02",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 552,
+      "title": "Recliners and Accent Chairs",
+      "resale_price": "340",
+      "original_price": "500",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Ishtiak Ahmed",
+        "location": "Joypurhat, Rajshahi",
+        "published_date": "2021-11-27 05:38:02",
+        "img": "https://i.ibb.co/Th2C72j/ishtiak.jpg"
+      },
+      "image_url": "https://i.ibb.co/zJvmy8f/Recliners-and-Accent-chairs.jpg"
+    },
+    {
+      "_id": "df11ff9feefc37613cc3a4486ce02151",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": false
+      },
+      "category_id": "06",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 552,
+      "title": "Office File Cabinet",
+      "resale_price": "540",
+      "original_price": "700",
+      "condition": "Used",
+      "years_of_use": "10 months",
+      "author": {
+        "name": "Raju Ahmed",
+        "location": "Dinajpur, Rangpur",
+        "published_date": "2022-01-21 07:48:02",
+        "img": "https://i.ibb.co/Jch3mh8/raju.jpg"
+      },
+      "image_url": "https://i.ibb.co/yPvpL8N/office-file-cabinet.jpg"
+    },
+    {
+      "_id": "919db97c34e0778b387dd40cdfa08130",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "01",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 89,
+      "title": "Modern Design Bed",
+      "resale_price": "2000",
+      "original_price": "2300",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Palash Ahmed",
+        "location": "Bogura, Rajshahi",
+        "published_date": "2021-04-29 21:05:42",
+        "img": "https://i.ibb.co/QbTF44D/26934-Polash.jpg"
+      },
+      "image_url": "https://i.ibb.co/ctD8Hx5/woo-bed3.jpg"
+    },
+    {
+      "_id": "374df11ae3d9b8b9ce21f4dc53f59b85",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "01",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 798,
+      "title": "Extra Ordinary Design Wooden Bed",
+      "resale_price": "1800",
+      "original_price": "2370",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Raju Ahmed",
+        "location": "Dinajpur, Rangpur",
+        "published_date": "2021-06-05 23:45:13",
+        "img": "https://i.ibb.co/Jch3mh8/raju.jpg"
+      },
+      "image_url": "https://i.ibb.co/2v5LtzD/wood-bed1.jpg"
+    },
+    {
+      "_id": "acb9b6785b62698fc6130db7615965e1",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "06",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 879,
+      "title": "Office Furniture",
+      "resale_price": "2500",
+      "original_price": "2800",
+      "condition": "Used",
+      "years_of_use": "07 months",
+      "author": {
+        "name": "Shahriar Rahman",
+        "location": "Mirpur, Dhaka",
+        "published_date": "2022-03-26 11:53:13",
+        "img": "https://i.ibb.co/0KVfyJ8/shahriar.jpg"
+      },
+      "image_url": "https://i.ibb.co/8KnggQL/office-furniture.jpg"
+    },
+    {
+      "_id": "be44c843d61859cc0b87cae85c55f9db",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "01",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 231,
+      "title": "Hand Made Wooden Bed",
+      "resale_price": "1600",
+      "original_price": "2000",
+      "condition": "Used",
+      "years_of_use": "2 years",
+      "author": {
+        "name": "Raju Ahmed",
+        "location": "Dinajpur, Rangpur",
+        "published_date": "2020-08-16 12:15:36",
+        "img": "https://i.ibb.co/Jch3mh8/raju.jpg"
+      },
+      "image_url": "https://i.ibb.co/nLZnGXF/wood-bed2.jpg"
+    },
+    {
+      "_id": "1b03149c50f1bec662062d930bf46489",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "02",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 546,
+      "title": "Hand Made Wooden Sofa",
+      "resale_price": "970",
+      "original_price": "1360",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Raju Ahmed",
+        "location": "Dinajpur, Rangpur",
+        "published_date": "2021-05-10 22:05:10",
+        "img": "https://i.ibb.co/Jch3mh8/raju.jpg"
+      },
+      "image_url": "https://i.ibb.co/F8LJcR3/Sofa1.jpg"
+    },
+    {
+      "_id": "7f5b80c1cdd4df0111918883eae07349",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "04",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+      "total_view": 1870,
+      "title": "Reading Table and Chair",
+      "resale_price": "590",
+      "original_price": "740",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Palash Ahmed",
+        "location": "Bogura, Rajshahi",
+        "published_date": "2021-08-14 23:15:00",
+        "img": "https://i.ibb.co/QbTF44D/26934-Polash.jpg"
+      },
+      "image_url": "https://i.ibb.co/0MXJXf7/reading-table-and-chair.jpg"
+    },
+    {
+      "_id": "17d266b79d2fcd850cd4d983c3aeb95f",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "02",
+      "rating": { "number": 4.2, "badge": "Excellent" },
+      "total_view": 354,
+      "title": "Solid Wood Sofa Set",
+      "resale_price": "760",
+      "original_price": "908",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Ishtiak Ahmed",
+        "location": "Joypurhat, Rajshahi",
+        "published_date": "2021-08-23 17:44:16",
+        "img": "https://i.ibb.co/Th2C72j/ishtiak.jpg"
+      },
+      "image_url": "https://i.ibb.co/hgQCWkv/solid-wood-sofa-set.jpg"
+    },
+    {
+      "_id": "61f9ce168f7b15aadecb1d1fc80c72f0",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": true
+      },
+      "category_id": "05",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+
+      "total_view": 100,
+      "title": "Baby Furniture",
+      "resale_price": "1480",
+      "original_price": "1790",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Palash Ahmed",
+        "location": "Bogura, Rajshahi",
+        "published_date": "2021-07-10 00:37:24",
+        "img": "https://i.ibb.co/QbTF44D/26934-Polash.jpg"
+      },
+      "image_url": "https://i.ibb.co/tJGkqFh/Baby-furniture.jpg"
+    },
+    {
+      "_id": "61f9ce168f7b15aadecb1d1fc80c72f7",
+      "others_info": {
+        "is_todays_pick": false,
+        "is_trending": false
+      },
+      "category_id": "04",
+      "rating": { "number": 4.5, "badge": "Excellent" },
+
+      "total_view": 100,
+      "title": "Reading Table",
+      "resale_price": "430",
+      "original_price": "510",
+      "condition": "Used",
+      "years_of_use": "1 year",
+      "author": {
+        "name": "Ishtiak Ahmed",
+        "location": "Joypurhat, Rajshahi",
+        "published_date": "2021-03-26 00:37:24",
+        "img": "https://i.ibb.co/Th2C72j/ishtiak.jpg"
+      },
+      "image_url": "https://i.ibb.co/BtRN6mG/reading-table.jpg"
+    }
+  ]

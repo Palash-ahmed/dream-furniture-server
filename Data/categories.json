@@ -2,31 +2,31 @@
     {
       "id": "01",
       "name": "Bedroom Furniture",
-      "image": "https://i.ibb.co/Zm5QKyK/bedroom500x330.jpg"
+     "img": "https://i.ibb.co/Zm5QKyK/bedroom500x330.jpg"
     },
     {
       "id": "02",
       "name": "Living Room Furniture",
-      "image": "https://i.ibb.co/2jQwr9q/Livingroom500x330.png"
+     "img": "https://i.ibb.co/2jQwr9q/Livingroom500x330.png"
     },
     {
       "id": "03",
       "name": "Dinning Room Furniture",
-      "image": "https://i.ibb.co/6XpwMc2/diningroom500x330.jpg"
+     "img": "https://i.ibb.co/6XpwMc2/diningroom500x330.jpg"
     },
     {
       "id": "04",
       "name": "Reading Room Furniture",
-      "image": "https://i.ibb.co/cwjzS4r/readingroom500x330.jpg"
+     "img": "https://i.ibb.co/cwjzS4r/readingroom500x330.jpg"
     },
     {
       "id": "05",
       "name": "Kids Furniture",
-      "image": "https://i.ibb.co/zVXmQnd/kidsfurniture500x330.jpg"
+     "img": "https://i.ibb.co/zVXmQnd/kidsfurniture500x330.jpg"
     },
     {
       "id": "06",
       "name": "Official Furniture",
-      "image": "https://i.ibb.co/H4S7ZBC/officefurniture500x330.jpg"
+     "img": "https://i.ibb.co/H4S7ZBC/officefurniture500x330.jpg"
     }
   ]
