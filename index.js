@@ -14,14 +14,23 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 
 async function run(){
     try{
-        const categoriesCollection = client.db('furnix').collection('products');
+        const categoriesCollection = client.db('furnix').collection('categories');
+        const productsCollection = client.db('furnix').collection('products');
 
-        app.get('/products', async(req, res)=>{
+        app.get('/categories', async(req, res)=>{
             const query = {}
-            const cursor = categoriesCollection.find(query);
-            const products = await cursor.toArray();
-            res.send(products);
-        })
+            const options = await categoriesCollection.find(query).toArray();
+            res.send(options);
+        });
+
+        app.get('/categories/:id', async(req, res) =>{
+            const id = req.params.id;
+            const query = {}
+            const products = await productsCollection.find(query).toArray();
+            const products_Collection = products.filter(product => product.category_id === id);
+            res.send(products_Collection);
+        });  
+
     }
     finally{
 
@@ -30,28 +39,13 @@ async function run(){
 
 run().catch(error => console.error(error));
 
-const categories = require('./Data/categories.json');
-const products = require('./Data/products.json');
+
 
 app.get('/', (req, res) => {
     res.send('Dream furniture API Running');
 });
 
-app.get('/products-categories', (req, res) =>{
-    res.send(categories)
-});
 
-app.get('/category/:id', (req, res) =>{
-    const id = req.params.id;
-    const category_products = products.filter(product => product.category_id === id);
-    res.send(category_products);
-})
-
-app.get('/products/:id', (req, res)=>{
-    const id = req.params.id;
-    const selectedProducts = products.find(product => product._id === id);
-    res.send(selectedProducts);
-})
 
 app.listen(port, () => {
     console.log(`Dream Furniture Server running on ${port}`);
