@@ -19,8 +19,8 @@ async function run(){
 
         app.get('/categories', async(req, res)=>{
             const query = {}
-            const options = await categoriesCollection.find(query).toArray();
-            res.send(options);
+            const category = await categoriesCollection.find(query).toArray();
+            res.send(category);
         });
 
         app.get('/categories/:id', async(req, res) =>{
@@ -41,8 +41,8 @@ run().catch(error => console.error(error));
 
 
 
-app.get('/', (req, res) => {
-    res.send('Dream furniture API Running');
+app.get('/', async(req, res) => {
+    res.send('Dream furniture API is Running');
 });
 
 
