@@ -16,6 +16,8 @@ async function run(){
     try{
         const categoriesCollection = client.db('furnix').collection('categories');
         const productsCollection = client.db('furnix').collection('products');
+        const bookingsCollection = client.db('furnix').collection('bookings');
+        const usersCollection = client.db('furnix').collection('users');
 
         app.get('/categories', async(req, res)=>{
             const query = {}
@@ -30,6 +32,25 @@ async function run(){
             const products_Collection = products.filter(product => product.category_id === id);
             res.send(products_Collection);
         });  
+
+        app.get('/bookings', async(req, res)=>{
+            const email = req.query.email;
+            const query = {buyerEmail: email};
+            const orders = await bookingsCollection.find(query).toArray();
+            res.send(orders);
+        });
+
+        app.post('/bookings', async(req, res)=>{
+            const booking = req.body
+            const result = await bookingsCollection.insertOne(booking);
+            res.send(result);
+        });
+
+        app.post('/users', async(req, res)=>{
+            const user = req.body;
+            const result = await usersCollection.insertOne(user);
+            res.send(result);
+        })
 
     }
     finally{
