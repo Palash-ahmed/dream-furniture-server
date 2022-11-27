@@ -36,6 +36,17 @@ async function run() {
         const bookingsCollection = client.db('furnix').collection('bookings');
         const usersCollection = client.db('furnix').collection('users');
 
+        const verifyAdmin = async(req, res, next) => {
+            const decodedEmail = req.decoded.email;
+            const query = { email: decodedEmail };
+            const user = await usersCollection.findOne(query);
+
+            if (user?.role !== 'admin') {
+                return res.status(403).send({ message: 'Forbidden Access' })
+            }
+            next();
+        }
+
         app.get('/categories', async (req, res) => {
             const query = {}
             const category = await categoriesCollection.find(query).toArray();
@@ -50,15 +61,33 @@ async function run() {
             res.send(products_Collection);
         });
 
-        app.get('/categoriesNewProduct', async(req, res)=>{
+        app.get('/categoriesNewProduct', async (req, res) => {
             const query = {}
-            const result = await categoriesCollection.find(query).project({id: 1}).toArray();
+            const result = await categoriesCollection.find(query).project({ id: 1 }).toArray();
             res.send(result);
         });
 
-        app.post('/products', async(req, res) =>{
+        app.get('/products', verifyJWT, verifyAdmin, async (req, res) => {
+            const email = req.query.email;
+            const decodedEmail = req.decoded.email;
+            if (email !== decodedEmail) {
+                return res.status(403).send({ message: 'Forbidden Access' });
+            }
+            const query = { email: email };
+            const products = await productsCollection.find(query).toArray();
+            res.send(products);
+        });
+
+        app.post('/products', verifyJWT, verifyAdmin, async (req, res) => {
             const newProduct = req.body;
             const result = await productsCollection.insertOne(newProduct);
+            res.send(result);
+        });
+
+        app.delete('/products/:id', verifyJWT, verifyAdmin, async (req, res) => {
+            const id = req.params.id;
+            const filter = { _id: ObjectId(id) };
+            const result = await productsCollection.deleteOne(filter);
             res.send(result);
         })
 
@@ -115,15 +144,7 @@ async function run() {
             res.send(result);
         });
 
-        app.put('/users/admin/:id', verifyJWT, async (req, res) => {
-            const decodedEmail = req.decoded.email;
-            const query = { email: decodedEmail };
-            const user = await usersCollection.findOne(query);
-
-            if (user?.role !== 'admin') {
-                return res.status(403).send({ message: 'Forbidden Access' })
-            }
-
+        app.put('/users/admin/:id', verifyJWT, verifyAdmin, async (req, res) => {
             const id = req.params.id;
             const filter = { _id: ObjectId(id) };
             const options = { upsert: true };
