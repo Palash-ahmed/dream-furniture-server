@@ -38,6 +38,7 @@ async function run() {
         const productsCollection = client.db('furnix').collection('products');
         const bookingsCollection = client.db('furnix').collection('bookings');
         const usersCollection = client.db('furnix').collection('users');
+        const paymentsCollection = client.db('furnix').collection('payments');
 
         const verifyAdmin = async (req, res, next) => {
             const decodedEmail = req.decoded.email;
