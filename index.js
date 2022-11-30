@@ -93,6 +93,12 @@ async function run() {
             res.send(result);
         });
 
+        app.post('/products', async (req, res) => {
+            const newProduct = req.body;
+            console.log(newProduct);
+            const result = await productsCollection.insertOne(newProduct);
+            res.send(result);
+        });
 
         // Products
         // ==========
@@ -108,11 +114,7 @@ async function run() {
             res.send(products);
         });
 
-        app.post('/products', verifyJWT, async (req, res) => {
-            const newProduct = req.body;
-            const result = await productsCollection.insertOne(newProduct);
-            res.send(result);
-        });
+        
 
         app.delete('/products/:id', async (req, res) => {
             const id = req.params.id;
