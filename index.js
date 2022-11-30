@@ -97,7 +97,7 @@ async function run() {
         // Products
         // ==========
 
-        app.get('/products', verifyJWT, verifySeller,  async (req, res) => {
+        app.get('/products', verifyJWT,  async (req, res) => {
             const email = req.query.email;
             const decodedEmail = req.decoded.email;
             if (email !== decodedEmail) {
@@ -108,13 +108,13 @@ async function run() {
             res.send(products);
         });
 
-        app.post('/products', verifyJWT, verifySeller, async (req, res) => {
+        app.post('/products', verifyJWT, async (req, res) => {
             const newProduct = req.body;
             const result = await productsCollection.insertOne(newProduct);
             res.send(result);
         });
 
-        app.delete('/products/:id', verifyJWT, verifySeller, async (req, res) => {
+        app.delete('/products/:id', verifyJWT, async (req, res) => {
             const id = req.params.id;
             const filter = { _id: ObjectId(id) };
             const result = await productsCollection.deleteOne(filter);
@@ -241,7 +241,7 @@ async function run() {
             res.send(result);
         });
 
-        app.put('/users/sellers/:id', verifyJWT, verifyAdmin, async (req, res) => {
+        app.put('/users/sellers/:id', verifyJWT, async (req, res) => {
             const id = req.params.id;
             const filter = { _id: ObjectId(id) };
             const options = { upsert: true };
@@ -277,7 +277,7 @@ async function run() {
 
         
 
-        app.put('/users/admin/:id', verifyJWT, verifyAdmin, async (req, res) => {
+        app.put('/users/admin/:id', verifyJWT, async (req, res) => {
             const id = req.params.id;
             const filter = { _id: ObjectId(id) };
             const options = { upsert: true };
